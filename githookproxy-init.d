@@ -22,7 +22,7 @@ IFACE=0.0.0.0
 USER="jenkins"
 LOGFILE="/var/log/$NAME.log"
 PID_FILE="/var/run/$NAME.pid"
-DAEMON="/var/lib/jenkins/SRC/githookproxy/githookproxy"
+DAEMON="/usr/local/share/githookproxy/githookproxy"
 DAEMON_OPTS="-i $IFACE:$PORT -l $LOGFILE -p $PID_FILE"
 
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
